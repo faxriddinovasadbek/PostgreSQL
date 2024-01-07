@@ -28,9 +28,9 @@ INSERT INTO users (f_name, l_name, age, email) VALUES
 
 
 -- column aliases
-SELECT email AS contact FROM customer;
-SELECT first_name AS name FROM customer;
-SELECT first_name name FROM customer;
-SELECT first_name, last_name AS surname FROM customer;
-SELECT first_name || ' ' || last_name AS full_name FROM customer;
-SELECT first_name || ' ' || last_name "full name" FROM customer;
+SELECT email AS contact FROM users;
+SELECT first_name AS name FROM users;
+SELECT first_name name FROM users;
+SELECT first_name, last_name AS surname FROM users;
+SELECT first_name || ' ' || last_name AS full_name FROM users;
+SELECT first_name || ' ' || last_name "full name" FROM users;
